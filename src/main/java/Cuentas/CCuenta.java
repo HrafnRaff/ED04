@@ -1,5 +1,6 @@
 package Cuentas;
 
+
 public class CCuenta {
 
 
@@ -24,6 +25,12 @@ public class CCuenta {
         return getSaldo();
     }
 
+    /**
+     * Este método sirve para los ingresos de dinero en la cuenta
+     * @param cantidad un double requerido para devolver el saldo con la cantidad
+     * @throws Exception 
+     */
+    
     public void ingresar(double cantidad) throws Exception
     {
         if (cantidad<0)
